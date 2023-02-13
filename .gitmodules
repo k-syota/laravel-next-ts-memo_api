@@ -1,0 +1,3 @@
+[submodule "laravel-next-ts-memo_client"]
+	path = laravel-next-ts-memo_client
+	url = https://github.com/k-syota/laravel-next-ts-memo_client.git
