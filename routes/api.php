@@ -22,6 +22,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('/login', [LoginController::class, 'login']);
 Route::get('/memos', [MemoController::class, 'fetch']);
+Route::post('/memos', [MemoController::class, 'create']);
 
 Route::get('/hello', function () {
     return 'Hello Next.js';
